@@ -7,13 +7,7 @@ const errorMiddleware = require("./middleware/error");
 const fileUpload = require("express-fileupload");
 const dotenv = require("dotenv");
 const cors = require("cors");
-<<<<<<< HEAD
-// app.use(cors());
 
-
-=======
-app.use(cors());
->>>>>>> 34df20169466c60cd3757b7ec305db69dbbd0fc1
 // COnfig
 dotenv.config({ path: "config/config.env" });
 
